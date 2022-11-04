@@ -1,13 +1,29 @@
 /* root */
 :root {
-    --background: #d18c37;
-    --text: #171717;
-    --hover: #87ae1b;
+    --Color1: #FDD63C;
+    --Color2: #643C83;
+    --Color3: #E072A0;
+    --Color4: #ffc2dc;
 }
 
 /* all */
 *{
-    color: var(--text);
+    color: var(--Color2);
+}
+.pb-main {
+    padding-bottom: 4rem;
+}
+.pt-main {
+    padding-top: 4rem;
+}
+
+/* links */
+a {
+    color: var(--Color2);
+    text-decoration: none;
+}
+a:hover {
+    color: var(--Color3)
 }
 
 /* titles */
@@ -15,28 +31,42 @@
     margin: 0;
 }
 
-/* links */
-.nav-link {
-    color: var(--text);
-}
-
 /* header */
 #header {
-    background-color: var(--background);
+    background-color: var(--Color1);
+    border-bottom: 2px solid;
 }
 .navbar {
     padding: 0.25em;
 }
 .navbar-toggler {
-    color: var(--text);
+    color: var(--Color2);
     border: none;
 }
 .navbar-toggler:focus {
     box-shadow: none;
-    background-color: var(--hover);
+    background-color: var(--Color3);
+}
+.nav-link {
+    color: var(--Color2);
+}
+.nav-link:focus, .nav-link:hover {
+    color: var(--Color3);
+}
+
+/* main */
+main {
+    background-color: var(--Color4);
+}
+
+/* cards */
+.card {
+    background-color: var(--Color1);
+    border: 2px solid;
 }
 
 /* footer */
 #footer {
-    background-color: var(--background);
+    background-color: var(--Color1);
+    border-top: 2px solid;
 }
