@@ -1,0 +1,42 @@
+/* root */
+:root {
+    --background: #d18c37;
+    --text: #171717;
+    --hover: #87ae1b;
+}
+
+/* all */
+*{
+    color: var(--text);
+}
+
+/* titles */
+.h1, h1 {
+    margin: 0;
+}
+
+/* links */
+.nav-link {
+    color: var(--text);
+}
+
+/* header */
+#header {
+    background-color: var(--background);
+}
+.navbar {
+    padding: 0.25em;
+}
+.navbar-toggler {
+    color: var(--text);
+    border: none;
+}
+.navbar-toggler:focus {
+    box-shadow: none;
+    background-color: var(--hover);
+}
+
+/* footer */
+#footer {
+    background-color: var(--background);
+}
