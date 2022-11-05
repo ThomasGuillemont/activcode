@@ -46,13 +46,22 @@
     <!-- main -->
     <main>
         <div class="container-fluid pt-main pb-main">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h2>Activ'Code c'est quoi?</h2>
-                    <p>Activ'Code est une </p>
+            <div class="row p-3 min-vh-50">
+                <div class="col-12 col-md-8 text-center d-flex flex-column align-self-center">
+                    <h2>Activ'Code?</h2>
+                    <p>Activ'Code est une Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repudiandae perferendis error sit sunt provident fuga odit sed ipsum sapiente accusamus officiis laboriosam molestias, maiores perspiciatis tempore, ducimus cum officia placeat corrupti corporis harum rem soluta voluptatibus! Laboriosam ullam numquam, distinctio a ex esse ducimus omnis. Adipisci architecto quibusdam illum!</p>
+                </div>
+                <div class="col-12 col-md-4 text-center d-flex align-self-center justify-content-center">
+                    <img class="img-thomas floating pb-3" src="./assets/img/thomas.png" alt="Personnage cartoon qui représente Thomas Guillemont">
                 </div>
             </div>
-            <div class="row">
+            <div class="row p-3">
+                <div class="col-12 text-center">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod repudiandae perferendis error sit sunt provident fuga odit sed ipsum sapiente accusamus officiis laboriosam molestias, maiores perspiciatis tempore, ducimus cum officia placeat corrupti corporis harum rem soluta voluptatibus! Laboriosam ullam numquam, distinctio a ex esse ducimus omnis. Adipisci architecto quibusdam illum!</p>
+                </div>
+            </div>
+            <div class="row p-3">
                 <div class="col-12 text-center">
                     <h2>Ils nous font confiance !</h2>
                     <p>Activ'Code prend soins de ses clients.<br>
@@ -61,16 +70,18 @@
                 <div class="col-12 col-sm-6 d-flex justify-content-center p-2">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">CFTC</h5>
-                            <p class="card-text">Je suis très satisfait du travail qui est réaliser sur le site.</p>
+                            <h5 class="card-title">Cécile</h5>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i></p>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem voluptatibus libero unde deleniti exercitationem iusto odit doloremque ipsum a dolore!</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-12 col-sm-6 d-flex justify-content-center p-2">
                     <div class="card" style="width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">CFTC</h5>
-                            <p class="card-text">Je suis très satisfait du travail qui est réaliser sur le site.</p>
+                            <h5 class="card-title">Alain</h5>
+                            <p><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-solid fa-star stars"></i><i class="fa-regular fa-star stars"></i></p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam quibusdam saepe animi tenetur recusandae cupiditate. Debitis molestias neque quibusdam voluptas. Provident distinctio officia ea vero sequi sunt culpa aliquid asperiores facilis est.</p>
                         </div>
                     </div>
                 </div>
@@ -82,9 +93,9 @@
     <footer class="container-fluid text-center" id="footer">
         <div class="row">
             <div class="col-12 col-md-6 d-flex flex-column p-3">
-                <h3>Contactez-nous dès maintenant !</h3>
-                <a href="mailto:thomas.guillemont@hotmail.fr">thomas.guillemont@hotmail.fr</a>
-                <a href="tel:0699230675">06 99 23 06 75</a>
+                <h3>Contact</h3>
+                <a href="mailto:thomas.guillemont@hotmail.fr"><i class="fa-solid fa-envelope"></i> thomas.guillemont@hotmail.fr</a>
+                <a href="tel:0699230675"><i class="fa-solid fa-mobile"></i> 06 99 23 06 75</a>
             </div>
             <div class="col-12 col-md-6 d-flex flex-column p-3">
                 <h3>A propos</h3>
@@ -94,7 +105,7 @@
         </div>
         <div class="row">
             <div class="col-12 fw-bold p-3">
-                &copy Tous droits réservés - Activ'Code <?= date("Y") ?>
+                <i class="fa-solid fa-copyright"></i> Tous droits réservés - Activ'Code <?= date("Y") ?>
             </div>
         </div>
     </footer>

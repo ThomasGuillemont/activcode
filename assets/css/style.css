@@ -1,9 +1,10 @@
 /* root */
 :root {
-    --Color1: #FDD63C;
-    --Color2: #643C83;
+    --Color1: #a75757;
+    --Color2: #131313;
     --Color3: #E072A0;
-    --Color4: #ffc2dc;
+    --Color4: #0d2e47;
+    --Color5: #ffc200;
 }
 
 /* all */
@@ -16,6 +17,9 @@
 .pt-main {
     padding-top: 4rem;
 }
+.min-vh-50 {
+    min-height: 50vh;
+}
 
 /* links */
 a {
@@ -24,6 +28,31 @@ a {
 }
 a:hover {
     color: var(--Color3)
+}
+
+/* floating effect */
+.floating {
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes floating {
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
+}
+
+/* img */
+.img-thomas {
+    max-width: 100%;
+    height: auto;
 }
 
 /* titles */
@@ -64,9 +93,19 @@ main {
     background-color: var(--Color1);
     border: 2px solid;
 }
+.stars {
+    color: var(--Color5);
+}
 
 /* footer */
 #footer {
     background-color: var(--Color1);
     border-top: 2px solid;
+}
+
+/* Screen size is 576px */
+@media screen and (min-width: 576px) {
+    .img-thomas {
+        max-width: 50%;
+    }
 }
