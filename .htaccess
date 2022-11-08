@@ -1,0 +1,14 @@
+# links follow
+Options +FollowSymlinks
+# rewrite Apache activate
+RewriteEngine On
+
+# error 404 -> /404.php
+RewriteRule ^404/?$ 404.php
+ErrorDocument 404 /404.php
+
+# /accueil
+RewriteRule ^accueil$ /controllers/home-controller.php [L]
+
+# /mentions
+RewriteRule ^mentions$ /controllers/mentions-controller.php [L]

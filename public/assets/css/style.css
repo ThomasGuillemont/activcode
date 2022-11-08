@@ -25,8 +25,8 @@
 .pt-main {
     padding-top: 4rem;
 }
-.min-vh-50 {
-    min-height: 50vh;
+.min-vh-85 {
+    min-height: 85vh;
 }
 
 /* links */
@@ -59,7 +59,7 @@ a:hover {
 
 /* img */
 .img-landing {
-    max-width: 100%;
+    max-width: 80%;
     height: auto;
 }
 
@@ -86,7 +86,6 @@ a:hover {
 }
 #header {
     background-color: var(--Color4);
-    border-bottom: 1px solid;
 }
 .navbar {
     padding: 0.25em;
@@ -125,7 +124,6 @@ p {
 /* cards */
 .card {
     background-color: var(--Color1);
-    border: 1px solid;
 }
 .card-title {
     color: var(--Color3);
@@ -141,7 +139,6 @@ p {
 /* footer */
 #footer {
     background-color: var(--Color4);
-    border-top: 1px solid;
 }
 .copy {
     font-size: 0.8em;
@@ -157,6 +154,6 @@ p {
 /* Screen size is 992px */
 @media screen and (min-width: 992px) {
     .img-landing {
-        max-width: 100%;
+        max-width: 80%;
     }
 }
